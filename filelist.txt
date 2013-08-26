@@ -1,0 +1,16 @@
+.:
+filelist.txt
+i386
+slackware.menu
+slackware.png
+x86_64
+
+./i386:
+bzimage
+initrd.img
+slackwaremain.menu
+
+./x86_64:
+bzimage
+initrd.img
+slackwaremain.menu

@@ -1,0 +1,8 @@
+LABEL SLACKWAREHUGES64
+MENU LABEL ^SlackWare - x64
+KERNEL er/plugins/slackware/x86_64/bzimage
+INITRD er/plugins/slackware/x86_64/initrd.img
+APPEND load_ramdisk=1 prompt_ramdisk=0 rw printk.time=0 SLACK_KERNEL=huge.s
+TEXT HELP
+                 SlackWare - x86_64.
+ENDTEXT

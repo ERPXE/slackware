@@ -1,0 +1,14 @@
+MENU BEGIN SLACKWARE
+MENU LABEL ^SlackWare 13.37
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/slackware/slackware.png
+
+MENU INCLUDE er/plugins/slackware/i386/slackwaremain.menu
+MENU INCLUDE er/plugins/slackware/x86_64/slackwaremain.menu
+  
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

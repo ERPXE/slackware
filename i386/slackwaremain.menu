@@ -1,0 +1,8 @@
+LABEL SLACKWAREHUGES32
+MENU LABEL ^SlackWare - X32
+KERNEL er/plugins/slackware/i386/bzimage
+INITRD er/plugins/slackware/i386/initrd.img 
+APPEND load_ramdisk=1 prompt_ramdisk=0 rw printk.time=0 SLACK_KERNEL=huge.s
+TEXT HELP
+                 SlackWare - i386.
+ENDTEXT
